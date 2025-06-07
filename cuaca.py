@@ -56,7 +56,7 @@ def print_banner():
 ║  {Colors.BOLD}{Colors.YELLOW}╚███╔███╔╝███████╗██║  ██║   ██║   ██║  ██║███████╗██║  ██║  {Colors.ENDC}{Colors.CYAN}║
 ║  {Colors.BOLD}{Colors.YELLOW} ╚══╝╚══╝ ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝  {Colors.ENDC}{Colors.CYAN}║
 ║                                                              ║
-║  {Colors.BOLD}{Colors.GREEN}🌟 ULTRA MODERN WEATHER CLI - TERMUX EDITION 🌟            {Colors.ENDC}{Colors.CYAN}║
+║  {Colors.BOLD}{Colors.GREEN}🌟 Cek - Cuaca 🌟            {Colors.ENDC}{Colors.CYAN}║
 ║  {Colors.PINK}Made with ❤️  by XdpzQ                           {Colors.ENDC}{Colors.CYAN}║
 ╚══════════════════════════════════════════════════════════════╝{Colors.ENDC}
 """
@@ -260,8 +260,8 @@ def interactive_menu():
                 time.sleep(1)
                 
         elif choice == "4":
-            print(f"\n{Colors.YELLOW}👋 Terima kasih telah menggunakan WeatherX!{Colors.ENDC}")
-            print(f"{Colors.GREEN}🌟 Stay safe and have a great day! 🌟{Colors.ENDC}")
+            print(f"\n{Colors.YELLOW}👋 Terima kasih telah menggunakan tools ini!{Colors.ENDC}")
+            print(f"{Colors.GREEN}🌟 Tetap aman dan semoga harimu menyenangkan! 🌟{Colors.ENDC}")
             loading_animation("Exiting", 1)
             break
             
