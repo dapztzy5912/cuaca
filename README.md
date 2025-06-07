@@ -4,7 +4,7 @@ Script sederhana untuk cek cuaca berdasarkan nama kota via Termux, menggunakan A
 
 ## 🔧 Cara Pakai
 ```bash
-git clone https://github.com/username/cek-cuaca-termux
+git clone https://github.com/dapztzy5912/cuaca.git
 cd cek-cuaca-termux
 bash install.sh
 python cuaca.py
